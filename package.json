@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix diam-frontend\" \"npm run dev --prefix diam-backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

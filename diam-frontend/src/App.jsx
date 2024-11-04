@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FeatureSection from "./components/FeatureSection";
 import Footer from "./components/Footer";
-import Testimonials from "./components/Testimonials";
+
 import Donate from "./components/Donate"; // Import Donate component
 import Profile from "./components/Profile"; // Import Profile component
 
@@ -19,7 +19,7 @@ const App = () => {
             <>
               <HeroSection />
               <FeatureSection />
-              <Testimonials />
+            
               <Footer />
             </>
           } />
